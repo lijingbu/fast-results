@@ -1,6 +1,6 @@
 # fast-results
 
-##getGO.R
+## getGO.R
 Get the ancestor of given level for given GO term.  
 
 Install required R packages
@@ -18,7 +18,7 @@ GO:0000007      MF      GO:0022857      transmembrane transporter activity
 
 
   
-##getSeqbyIDs.pl
+## getSeqbyIDs.pl
 Grep sequences from a fasta file by given IDs (one ID per line) in a file.
 
 Usage: `getSeqbyID.pl <seq> <ids> <out>`

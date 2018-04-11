@@ -18,8 +18,27 @@ GO:0000007      MF      GO:0022857      transmembrane transporter activity
 
 
   
-## getSeqbyIDs.pl
+## getSeqbyID.pl
 Grep sequences from a fasta file by given IDs (one ID per line) in a file.
 
 Usage: `getSeqbyID.pl <seq> <ids> <out>`
+
+
+## getSeqbyRegion.pl
+Grep sequences from a tab separated file with regions information, one region per line.
+
+Usage: `getSeqbyRegion.pl <genome> <regions> <out>`
+
+**regions file format:**
+
+chromosome | start | stop | strand | sequenceName
+--- | --- | --- | --- | ---
+
+
+**output fasta format:**
+
+```
+>sequenceName chromosome_start_stop_strand_length
+MAGNSDNEIGNDMNMDNSD.....Sequences..
+```
 
